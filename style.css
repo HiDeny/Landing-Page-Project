@@ -1,0 +1,101 @@
+* {
+    border: pink 0.5px solid;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Top */
+
+header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+.nav {
+    font-size: 18px;
+    color: white;
+}
+
+ul {
+
+}
+
+li {
+
+}
+
+.welcome {
+    background-color: #1F2937;
+}
+
+.msg h1 {
+    font-size: 48px;
+    font-weight: 800; 
+    color: #F9FAF8;
+}
+
+.msg p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+}
+
+.image {
+
+}
+
+/* Middle */
+
+.info {
+
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.cards {
+
+}
+
+.card {
+
+}
+
+.box {
+
+}
+
+.qote {
+    background-color: #e5e7eb;
+}
+
+.qote h2 {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+/* Bottom */
+.sing-up {
+
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+}
