@@ -152,8 +152,20 @@ button:active {
     border-radius: 10px;
 }
 
+/* Quto section */
 .qote {
-    background-color: #e5e7eb;
+    background-color: #E5E7EB;
+    height: 400px;
+    
+}
+
+.qote .text {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .qote h2 {
@@ -161,6 +173,15 @@ button:active {
     font-weight: 300;
     font-style: italic;
     color: #1f2937;
+    margin-top: 128px;
+    margin-bottom: 0px;
+}
+
+.qote h4 {
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 80px;
+    align-self: flex-end;
 }
 
 /* Bottom */
