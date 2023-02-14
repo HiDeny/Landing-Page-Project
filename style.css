@@ -1,30 +1,60 @@
 * {
-    border: pink 0.5px solid;
+    /* border: pink 0.5px solid; */
 }
 
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+html {
+    
 }
 
 /* Top */
 
 header {
-    background-color: #1F2937;
+    display: flex;
     color: #F9FAF8;
+    margin: 0 auto;
+    width: 80%;
+    padding: 16px 0px;
+    padding-bottom: 128px;
+}
+
+.top {
+    background-color: #1F2937;
 }
 
 .logo {
     font-size: 24px;
-    color: #F9FAF8
+    color: #F9FAF8;
+    flex: 1 1 auto; 
+
+}
+
+.logo h3 {
+    margin: 0;
 }
 
 .nav {
+    display: flex;
     font-size: 18px;
     color: white;
 }
 
 ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    padding: 0;
+    margin: 0;
+    flex: 1;
+    align-items: center;
+    font-weight: 300;
 
 }
 
@@ -33,7 +63,28 @@ li {
 }
 
 .welcome {
-    background-color: #1F2937;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 128px;
+}
+
+.welcome .image {
+    width: 500px;
+    height: 244px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex: 0 0 auto;
+    margin-left: 40px;
+}
+
+.msg {
+    
 }
 
 .msg h1 {
@@ -45,15 +96,23 @@ li {
 .msg p {
     font-size: 18px;
     color: #E5E7EB;
+    font-weight: 300;
 }
 
 button {
     background-color: #3882F6;
+    padding: 8px 24px;
+    color: white;
+    border-radius: 8px;
+    font-weight: 700;
+    border: 0;
 }
 
-.image {
-
+button:active {
+    background-color: #186ffb;
 }
+
+
 
 /* Middle */
 
